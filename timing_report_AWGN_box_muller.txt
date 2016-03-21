@@ -1,0 +1,26 @@
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : top_module
+Version: I-2013.12-SP1
+Date   : Mon Mar 21 15:29:47 2016
+****************************************
+
+Operating Conditions: nom_pvt   Library: lsi_10k
+Wire Load Model Mode: top
+
+  Startpoint: valid_reg (rising edge-triggered flip-flop)
+  Endpoint: valid (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  valid_reg/CP (FDS2)                      0.00       0.00 r
+  valid_reg/Q (FDS2)                       1.27       1.27 f
+  valid (out)                              0.00       1.27 f
+  data arrival time                                   1.27
+  -----------------------------------------------------------
+  (Path is unconstrained)
