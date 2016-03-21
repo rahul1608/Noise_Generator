@@ -1,0 +1,32 @@
+****************************************
+Report : resources
+Design : top_module
+Version: I-2013.12-SP1
+Date   : Mon Mar 21 15:41:52 2016
+****************************************
+
+Resource Sharing Report for design top_module in file
+        /DCNFS/users/student/rumrania/Desktop/Vlsi_Comm/top.sv
+
+===============================================================================
+|          |              |            | Contained     |                      |
+| Resource | Module       | Parameters | Resources     | Contained Operations |
+===============================================================================
+| r79      | DW02_mult    | A_width=15 |               | mult_78              |
+|          |              | B_width=17 |               |                      |
+| r81      | DW02_mult    | A_width=15 |               | mult_79              |
+|          |              | B_width=17 |               |                      |
+===============================================================================
+
+
+Implementation Report
+===============================================================================
+|                    |                  | Current            | Set            |
+| Cell               | Module           | Implementation     | Implementation |
+===============================================================================
+| mult_78            | DW02_mult        | csa                |                |
+| mult_79            | DW02_mult        | csa                |                |
+===============================================================================
+
+
+No multiplexors to report
